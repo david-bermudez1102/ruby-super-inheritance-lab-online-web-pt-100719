@@ -1,4 +1,4 @@
-class ChattyStudent
+class ChattyStudent < Student
   attr_accessor :hello
 
   def raise_hand
