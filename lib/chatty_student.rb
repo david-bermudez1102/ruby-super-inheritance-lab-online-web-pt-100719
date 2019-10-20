@@ -1,5 +1,8 @@
 class ChattyStudent < Student
-  attr_accessor :hello
+
+  def hello
+    super
+  end
 
   def raise_hand
     10.times do
